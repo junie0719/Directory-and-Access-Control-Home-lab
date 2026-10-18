@@ -33,19 +33,19 @@ Each employee assigned to their respective department.
 
 ### IT Department
 
-![IT Department](Screenshots/IT_setup.png)
+![IT Department](screenshots/IT_setup.png)
 
 ### HR Department
 
-![HR Department](Screenshots/HR_setup.png)
+![HR Department](screenshots/HR_setup.png)
 
 ### Finance Department
 
-![Finance Department](Screenshots/finanace_setup.png)
+![Finance Department](screenshots/finanace_setup.png)
 
 ### Sales Department
 
-![Sales Department](Screenshots/sales_setup.png)
+![Sales Department](screenshots/sales_setup.png)
 
 ## 2. Creating Security Groups
 
@@ -58,9 +58,9 @@ Next, I created security groups for each department:
 
 I added the corresponding employees to their department's security group.
 
-![Security Groups](Screenshots/Securitygroups_setup.png)
+![Security Groups](screenshots/Securitygroups_setup.png)
 
-![Group Membership](Screenshots/securitygroup_setup2.png)
+![Group Membership](screenshots/securitygroup_setup2.png)
 
 ## 3. Configuring Account Lockout Policies
 
@@ -84,7 +84,7 @@ net accounts /domain
 
 The first command refreshed Group Policy, while the second allowed me to verify the domain account policy settings.
 
-![Account Policy Verification](Screenshots/policy_verfication.png)
+![Account Policy Verification](screenshots/policy_verfication.png)
 
 ## 4. Investigating a Failed Login
 
@@ -107,6 +107,6 @@ The substatus indicated an incorrect password.
 
 This was useful because it showed me how a security analyst can investigate authentication failures using Windows event logs rather than relying only on what appears on the login screen.
 
-![Failed Login Event](Screenshots/failed_login_event.png)
+![Failed Login Event](screenshots/failed_login_event.png)
 
 
